@@ -41,8 +41,66 @@ Animate the colon (:) blinking every second.
 
 Add a “Tweet this” button with a share link.
 ## HTML Code:
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Digital Clock
+    </title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="clock-box">
+      <h2 class="clock-title">Clock Timer</h2>
+      <div class="time-display" id="time">00:00:00</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
 ## CSS Code:
+```
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: blue;
+}
+
+.clock-box{
+  background-color: black;
+  color: grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(190, 9, 9, 0.5);
+  width: 300px;
+}
+
+.clock-title{
+  margin: 0 0 20px 0;
+  color: red;
+}
+
+.time-display{
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.colon{
+  animation: blink infinite;
+}
+```
+
+## Live web page:
+
 ## Output:
+<img width="1911" height="964" alt="image" src="https://github.com/user-attachments/assets/b766ea52-741f-4d39-a734-14b9e9ae591d" />
 
 ## Result:
 A live digital clock using HTML, CSS, and JavaScript that updates every second and displays the current time in HH:MM:SS format — a feature commonly used in dashboards and admin panels is created successfully.
