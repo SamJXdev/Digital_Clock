@@ -98,7 +98,7 @@ body{
 ```
 
 ## Live web page:
-
+https://samjxdev.github.io/Digital_Clock/
 ## Output:
 <img width="1911" height="964" alt="image" src="https://github.com/user-attachments/assets/b766ea52-741f-4d39-a734-14b9e9ae591d" />
 
